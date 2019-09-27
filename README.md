@@ -1,3 +1,14 @@
+## Differences with great original repository
+This fork is used for a course at the [ESILV engineering school](https://www.esilv.fr/)
+
+### Network Configuration
+Add external network "iot-labs" to each containers
+
+### Start/Stop/RM/LOGS script
+Add a simple script to control the containers
+
+
+
 # mongo-cluster-docker
 
 This is a simple 3 node replica mongodb setup based on official `mongo` docker image using `docker-compose` described in my blogpost at https://warzycha.pl/mongo-db-sharding-docker-example/.
